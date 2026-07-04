@@ -24,7 +24,10 @@ app.get("/", (req, res) => {
 
 
 const PORT = process.env.PORT || 5000;
-
+console.log("Auth routes loaded");
+console.log("Project routes loaded");
+console.log("Bug routes loaded");
+console.log("Dashboard routes loaded");
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
